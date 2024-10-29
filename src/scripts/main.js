@@ -1,7 +1,7 @@
 'use strict';
 
-const mainTable = document.querySelector('table');
-const allRows = [...mainTable.rows];
+const table = document.querySelector('table');
+const allRows = [...table.rows];
 
 for (let i = 0; i < allRows.length; i++) {
   const cells = [...allRows[i].cells];
